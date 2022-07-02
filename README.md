@@ -410,13 +410,13 @@ Create a directory on you local machine and name it the same as your GitHub acco
 This will reflect your GitGub account on your local machine.
 
 ```bat
-MD "The-first-entity"
+MD "<PATH>\The-first-entity"
 ```
 
 Change into the newly created, local, working directory.
 
 ```bat
-cd "C:\Users\lulu\Documents\GitHub\The-first-entity\"
+cd "<PATH>\GitHub\The-first-entity\"
 ```
 
 ###### Clone your project from GitHub to your local account directory
@@ -429,7 +429,7 @@ git clone https://github.com/The-first-entity/University-of-the-first-entity
 Change the, local, working directory, to your, newly cloned, project directory.
 
 ```bat
-cd C:\Users\lulu\Documents\GitHub\The-first-entity\University-of-the-first-entity
+cd "<PATH>\GitHub\The-first-entity\University-of-the-first-entity"
 ```
 
 Update all submodules from GitHub to your, local, working directory.
@@ -459,7 +459,7 @@ Update you local submodule.
 ```bat
 cd Authoring-Tools/
 git fetch
-git merge origin/master
+git merge origin/University-of-the-first-entity 
 ```
 
 Update all local submodules.
